@@ -37,7 +37,7 @@ pip install streamlit python-dotenv pillow pdf2image google-generativeai
 1. **Clone the Repository**: Clone the project repository and navigate into the project directory.
 
    ```bash
-   git clone 
+   git clone https://github.com/tiwarianup/scala_spark_resume_scanner.git
    ```
 
 2. **Environment Variables**: Create a `.env` file in the root directory of the project and add your Google API key.
