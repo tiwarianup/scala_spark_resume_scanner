@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Resume Scanner AI is a POC designed to help users evaluate potential candidate resumes against specific job descriptions. Utilizing Google Gemini AI, the application provides detailed feedback on the alignment between the resume and job description, including a percentage match and identification of missing keywords.
+The Resume Scanner AI is a POC designed to help users evaluate potential Scala/Spark candidate resumes against specific job descriptions given by clients. Utilizing Gemini LLM, the application provides detailed feedback on the alignment between the resume and job description, including a percentage match and identification of missing keywords, detailed analysis, recommendations and final verdict.
 
 ## Features
 
@@ -20,7 +20,13 @@ The Resume Scanner AI is a POC designed to help users evaluate potential candida
 
 ### Required Libraries
 
-Install the required libraries using pip:
+Create a virtual environment to setup necessary packages:
+
+```bash
+conda create -n genai_resume
+```
+
+Install the required libraries in your virtual environment using pip:
 
 ```bash
 pip install streamlit python-dotenv pillow pdf2image google-generativeai
@@ -35,10 +41,6 @@ pip install streamlit python-dotenv pillow pdf2image google-generativeai
    ```
 
 2. **Environment Variables**: Create a `.env` file in the root directory of the project and add your Google API key.
-
-   ```bash
-   touch .env
-   ```
 
    Add the following line to the `.env` file:
 
@@ -63,11 +65,7 @@ pip install streamlit python-dotenv pillow pdf2image google-generativeai
 
 - Enter the job description in the provided text area.
 
-### Analyzing the Resume
+### Analyzing the Resume (Scoring, Analysis, Recommendation & Verdict)
 
 - Click on the "Summarize the Resume" button to receive a professional evaluation of your resume.
 - Alternatively, click on the "Check Percentage match" button to get a percentage match along with missing keywords and final thoughts.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
