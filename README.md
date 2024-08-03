@@ -69,3 +69,12 @@ pip install streamlit python-dotenv pillow pdf2image google-generativeai
 
 - Click on the "Summarize the Resume" button to receive a professional evaluation of your resume.
 - Alternatively, click on the "Check Percentage match" button to get a percentage match along with missing keywords and final thoughts.
+
+## Application Screenshots
+
+1. Main Screen - to input dob description and resume upload
+  ![Main Screen - to input dob description and resume upload](https://github.com/tiwarianup/scala_spark_resume_scanner/blob/main/images/Main_screen.PNG)
+2. Candidate Evaluation Summary
+   ![Candidate Evaluation Summary](https://github.com/tiwarianup/scala_spark_resume_scanner/blob/main/images/Candidate_profile_summary.PNG)
+3. Candidate Percentage Match & Verdict
+   ![Candidate Percentage Match & Verdict](https://github.com/tiwarianup/scala_spark_resume_scanner/blob/main/images/Percentage_match.PNG)
