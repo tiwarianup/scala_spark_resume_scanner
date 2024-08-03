@@ -1,0 +1,29 @@
+Summary:
+We are looking for a data engineer eager to develop analytics applications for our airlines customers. The team oversees the full stack development, from data processing (Spark and Scala) up to Data visualization, Azur provisioning and orchestration with native azure services.
+
+Main accountabilities:
+ 
+You will work with functional analysts and developers from other divisions and in close collaboration with PM teams to deliver Data platform capabilities or analytics modules. 
+ 
+Especially: 
+• You will analyze user needs and design solutions thoroughly. 
+• You will code, test, debug, document and maintain software solutions. You will propose optimizations to improve performance or resources efficiency. 
+• You will work on the data acquisition, the data modeling, cleansing, aggregation, treatment. 
+• You will define / enhance data models, implement the right DataMarts, partitions keys, so that we can answer analytics requirements efficiently. 
+• You may as well benchmark technologies or cloud services recommend technologies and design best practices, so that the best technology or design are eventually implemented. 
+• You are curious and like discovering new technologies, new functional areas, and are eager to understand the functional aspects of your applications. 
+ 
+Ideal candidate: 
+ 
+Will have 6+ years of experience in a similar role where he/she will have demonstrated his/her Capacity to design spark applications, understand the underlying data, their usage, and build accordingly the relevant data treatments, datamarts or even dashboards. 
+ 
+• Language: Scala (or functional programing) 
+• Frameworks: Spark
+• Autonomy, self-motivation, and pro-activity 
+• Accountability, commitment to deliver durable work of quality, ready to embrace challenges 
+• Team player, multicultural approach, eager to learn from other and share knowledge
+• Knowledge in Azure services (data bricks, Azure functions) or other SaaS solutions (Snowflake) 
+• Familiar with GIT, Airflow… 
+• Scaled Agile Framework (SAFe) 
+• Analytical and conceptual thinking, information gathering and Devops mindset is necessary.
+
